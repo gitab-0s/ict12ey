@@ -25,6 +25,7 @@ public class order extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jt1 = new javax.swing.JTextField();
         jt4 = new javax.swing.JTextField();
@@ -41,11 +42,21 @@ public class order extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jt9 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton2.setFont(new java.awt.Font("Segoe UI Black", 2, 18)); // NOI18N
+        jButton2.setText("Back");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1710, 30, 180, 40));
 
         jButton1.setText("ORDER");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -53,19 +64,19 @@ public class order extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 940, 180, 40));
-        getContentPane().add(jt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 180, 40));
-        getContentPane().add(jt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 490, 180, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 930, 330, 40));
+        getContentPane().add(jt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 190, 330, 40));
+        getContentPane().add(jt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 490, 330, 40));
 
         jt3.setText("0");
-        getContentPane().add(jt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 390, 180, 40));
+        getContentPane().add(jt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 390, 330, 40));
 
         jt5.setText("0");
-        getContentPane().add(jt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 590, 180, 40));
+        getContentPane().add(jt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 590, 330, 40));
 
         jt6.setText("0");
-        getContentPane().add(jt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 690, 180, 40));
-        getContentPane().add(jt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 790, 180, 40));
+        getContentPane().add(jt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 690, 330, 40));
+        getContentPane().add(jt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 780, 330, 40));
 
         jt8.setText("0");
         jt8.addActionListener(new java.awt.event.ActionListener() {
@@ -73,42 +84,43 @@ public class order extends javax.swing.JFrame {
                 jt8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 880, 180, 40));
+        getContentPane().add(jt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 870, 330, 40));
 
         jLabel1.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel1.setText("CHANGE");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 840, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 840, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel2.setText("ORDER");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel3.setText("ORDER CODE");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 260, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel4.setText("PRICE");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 360, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel5.setText("QUANTITY");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 450, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 460, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel6.setText("TOTAL");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 560, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 560, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel7.setText("SUBTOTAL");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 660, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 660, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel8.setText("CASH");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 760, -1, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 750, -1, -1));
+        getContentPane().add(jt9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 770, -1, -1));
 
         jTextField1.setText("0");
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 180, 40));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 290, 330, 40));
 
         jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC34\\Documents\\ca1\\4.png")); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -118,47 +130,60 @@ public class order extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
+        //jt9.setText(""+tax);//tax
+       //int tx1 = Integer.parseInt(jt9.getText());
+        //int tx3 =  cash * tx1;
+        
+       // jt10.setText(""+tx3);
+        
+        
         int a = Integer.parseInt(jt1.getText());
         int b = Integer.parseInt(jt4.getText());
         int c = Integer.parseInt(jt5.getText());
-              int cash = Integer.parseInt(jt7.getText());
-
-        int a1 ;
+        int Bayad = Integer.parseInt(jt6.getText());
+        int a1 , a2 , a3 , a4 , a5;
         
        float tax = 0.12f;
         
         a1 = 60;
-       
-      
-       
-        
+        a2 = 65;
+        a3 = 70;
+        a4 = 75;
+        a5 = 80;
        if(a==1)
        {
            
-         
-          
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
        jTextField1.setText("Cookies and Cream");
        
        
         int tot = a1 * b;
        
         int sub = (int) (c * tax);
-        
+    
+                
         int taxx = sub + tot;
          
-        jt6.setText("" + taxx );
-      
-        
-        jt3.setText("60");
-        jt5.setText(""+tot);
-        
-       int Bayad = Integer.parseInt(jt6.getText());
        
+      
+       jt3.setText("60");
+       jt5.setText(""+tot);
+        
+      
        int sukli = cash - Bayad;
        
+
        jt8.setText("" + sukli );
 
 
+       
+        jt6.setText("" + taxx );
+       
+       
        jTextField1.setEnabled(false);
          jt3.setEnabled(false);
          
@@ -169,12 +194,443 @@ public class order extends javax.swing.JFrame {
          jt8.setEnabled(false);  
          
 
-       
-        
-        
-           
            
        }
+       
+       
+       else if(a==2)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Chocolate");
+       
+       
+        int tot = a2 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("65");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+      else if(a==3)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Red Velvet");
+       
+       
+        int tot = a3 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("70");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       
+       else if(a==4)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Strawberry");
+       
+       
+        int tot = a4 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("75");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       else if(a==5)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("CBlueberryCheesecake");
+       
+       
+        int tot = a5 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("80");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       
+       
+       else  if(a==1)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Affogato");
+       
+       
+        int tot = a1 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("60");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       else if(a==7)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Expresso");
+       
+       
+        int tot = a2 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("65");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       
+       else if(a==8)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Mocha");
+       
+       
+        int tot = a1 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("60");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       
+       else if(a==9)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Cappucino");
+       
+       
+        int tot = a3 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("70");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       else if(a==10)
+       {
+           
+       int cash = Integer.parseInt(jt7.getText()); // Cash
+       
+       
+       
+       
+       jTextField1.setText("Latte");
+       
+       
+        int tot = a3 * b;
+       
+        int sub = (int) (c * tax);
+    
+                
+        int taxx = sub + tot;
+         
+       
+      
+       jt3.setText("70");
+       jt5.setText(""+tot);
+        
+      
+       int sukli = cash - Bayad;
+       
+
+       jt8.setText("" + sukli );
+
+
+       
+        jt6.setText("" + taxx );
+       
+       
+       jTextField1.setEnabled(false);
+         jt3.setEnabled(false);
+         
+         jt5.setEnabled(false);  
+         
+         jt6.setEnabled(false);  
+           
+         jt8.setEnabled(false);  
+         
+
+           
+       }
+       
+       
+      
+       
+       
+       
 
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -182,6 +638,13 @@ public class order extends javax.swing.JFrame {
     private void jt8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jt8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jt8ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+
+        new Menu().setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -220,6 +683,7 @@ public class order extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -237,5 +701,6 @@ public class order extends javax.swing.JFrame {
     private javax.swing.JTextField jt6;
     private javax.swing.JTextField jt7;
     private javax.swing.JTextField jt8;
+    private javax.swing.JLabel jt9;
     // End of variables declaration//GEN-END:variables
 }
